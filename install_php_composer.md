@@ -6,7 +6,9 @@
 * 2.install by terminal
 
 > cd your_file
+>
 > php -r "readfile('https://getcomposer.org/installer');" | php
+> 
 > echo @php "%~dp0composer.phar" %*>composer.bat
 
 ##### test
